@@ -1,0 +1,19 @@
+- better display for decimal
+
+- finish recorder:
+  - store serialized data to sqlite database using diesel
+  - deploy to production server
+
+- model trained on gdax data:
+  - (btc price, eth price, ltc price) one per second
+
+- model trained on gdax + blockchain features
+
+- train rnn on features extracted from blockchain + gdax data
+
+- cleanup:
+  - remove zero bids from order book
+  - make order book take updates and init by value
+
+- misc improvements:
+  - simple curses visualization of order book
